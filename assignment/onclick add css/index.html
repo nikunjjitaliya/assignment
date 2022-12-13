@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div id="head">
+            <h1>Click The Button And Change the style</h1>
+        </div>
+        <div id="box">
+            <div class="parent" >
+                <div class="child" id="firstWay">
+                    <h1>First Way</h1>
+                    <h3>using :- cssText</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur eligendi debitis provident explicabo dicta vero, quos accusantium mollitia totam repellendus quasi, ex consequuntur quibusdam! Veritatis praesentium qui quas unde.
+                    </p>
+                </div>
+                <button onclick="firstWay()">click me</button>
+            </div>
+            <div class="parent">
+                <div class="child" id="secondWay">
+                    <h1>Second Way</h1>
+                    <h3>using :- setAttribute
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur eligendi debitis provident explicabo dicta vero, quos accusantium mollitia totam repellendus quasi, ex consequuntur quibusdam! Veritatis praesentium qui quas unde.
+                    </p>
+                </div>
+                <button onclick="secondWay()">click me</button>
+            </div>
+            <div class="parent">
+                <div class="child" id="thirdWay">
+                    <h1>Third Way</h1>
+                    <h3>with single property</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur eligendi debitis provident explicabo dicta vero, quos accusantium mollitia totam repellendus quasi, ex consequuntur quibusdam! Veritatis praesentium qui quas unde.
+                    </p>
+                </div>
+                <button onclick="thirdWay()">click me</button>
+            </div>
+
+          
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

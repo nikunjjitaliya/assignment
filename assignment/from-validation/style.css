@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#parent{
+    height:695px;
+    width: 100%;
+    background-color: azure;
+    text-align: center;
+    padding: 180px 0;
+}
+#child{
+    width: 40%;
+    height:50vh;
+    margin: 0 auto;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+input{
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+}
+#span{
+    width: 100%;
+    color: red;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#span1{
+    width: 100%;
+    color: red;
+    font-size: 15px;
+    font-weight: lighter;
+}
+h2{
+    padding: 20px 0;
+    color: white;
+    font-size: 40px;
+}
+
+#login{
+    background-color: rgb(255, 226, 61);
+}

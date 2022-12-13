@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+    border: 1px solid black;
+    /* background-color: blue; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 1px solid black;
+    /* background-color: blue; */
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+}
+table caption{
+    font-size: 40px;
+    text-transform: capitalize;
+    background-color: rgb(175, 28, 28);
+    color: white;
+    padding: 15px 0;
+    border: 1px solid black;
+}
+table tbody tr{
+    padding: 10px;
+}
+table tbody tr th{
+    padding: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+table tbody tr td{
+    font-size: 30px;
+    padding: 3px;
+}
+table tbody tr td input{
+    font-size: 20px;
+    padding: 5px;
+}
